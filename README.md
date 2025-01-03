@@ -2,13 +2,14 @@
 Time limit script for computers
 -------------------------------
 
-This project includes a batch file, a PowerShell script, and a Visual Basic script designed to help control how long a computer can be used each day. 
-
+This project includes a batch file, a PowerShell script, C#, and a Visual Basic script designed to control how long a computer can be used each day. It is a free alternative to expensive commercial programs for children, schools, or companies.
 
 Scripting Languages Used
 ------------------------
 
-The file (DailyUsageLimit.bat) is used to set up and control the execution flow of the time restriction logic.
+C# file (MainProgram.exe) is a compiled program that runs the batch file automatically without needing the user to do anything. I have also included MainProgram.cs for educational purposes if anyone would be interested in exploring it further.
+
+Batchfile (DailyUsageLimit.bat) is used to set up and control the execution flow of the time restriction logic.
 
 PowerShell - The file (ShowTimedMessage.ps1) script displays notifications and handles advanced logic.
 
@@ -49,7 +50,7 @@ To ensure the batch file runs automatically, follow these steps to create a new 
 2. Create a new task: Go to the Action menu and select 'Create Task'.
 3. General tab: Provide a name and description for the task. Choose 'Run whether the user is logged on' and check 'Run with highest privileges'.
 4. Triggers tab: Click 'New' and set the trigger to 'At log on' or on a schedule as needed. Make sure it's enabled.
-5. Actions tab: Set the action to 'Start a program'. Browse and select your MinimizeWindow.vbc file. 
+5. Actions tab: Set the action to 'Start a program'. Browse and select your MainProgram.exe file. 
 6. Conditions tab: Leave the settings blank to ensure the task works in both AC power and battery operation conditions. If you select the option 'Start the task only if the computer is on AC power,' it will restrict the task to run only when the computer is plugged in, not on battery.
 7. Settings tab: Configure how the task should behave if it fails or runs longer than expected.
 8. Save the task: Click 'OK' to save your settings. You might need to enter system credentials.
