@@ -2,7 +2,7 @@
 Time limit script for computers
 -------------------------------
 
-This project includes a batch file, a PowerShell script, C#, and a Visual Basic script designed to control how long a computer can be used each day. It is a free alternative to expensive commercial programs for children, schools, or companies.
+This project includes a batch file, a PowerShell script, C#, and a Visual Basic script designed to control how long a computer can be used each day. It is a free alternative to expensive commercial programs for children, schools, or companies. Although it is still under development and works on Windows 10, the .exe file will be blocked on Windows 11 due to Windows security settings. You can either switch it off or wait for the fully functional program, or use it for educational purposes.
 
 Scripting Languages Used
 ------------------------
